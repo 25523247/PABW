@@ -41,31 +41,24 @@ Pemilihan topik, isi halaman, data perjalanan, dan penyesuaian akhir saya kerjak
 
 ## Pertemuan 4 — Design token halaman profil
 
-- Berkas gaya yang akan dibuat: `tokens.css`, `base.css`, `layout.css`, `komponen.css`, `tema.css`
-- Warna utama: #94B49F (sage green), dipilih karena memberikan tampilan yang lembut dan tenang.
+- Berkas gaya yang akan dibuat: tokens.css, base.css,
+  layout.css, komponen.css, tema.css
+- Warna utama: #3A5A40 (hijau), dipilih karena memberikan
+  tampilan hijau yang sesuai dengan desain halaman perjalanan.
 
 ### Token yang saya tetapkan
 
 | Token | Nilai | Untuk apa |
 |---|---|---|
-| --color-primary | #94B49F | tombol, tautan, penanda |
-| --color-fg | #0F172A | warna teks utama |
-| --color-bg | #D4F0F0 | latar halaman |
-| --color-surface | #FFFFFF | latar kartu dan panel |
-| --color-border | #B6CFB6 | garis pemisah dan tepi kotak |
-| --color-danger | #B00020 | peringatan dan isian tidak valid |
-| --color-focus | #94B49F | garis fokus papan ketik |
-| --space-1 | 0.25rem | jarak paling rapat |
-| --space-2 | 0.5rem | jarak antar label dan isian |
-| --space-3 | 0.75rem | jarak di dalam kartu |
+| --color-primary | #3A5A40 | tombol, tautan, penanda |
+| --color-fg | #344E41 | warna teks utama |
+| --color-bg | #F5F7EF | latar halaman |
+| --color-surface | #BBD58E | latar kartu |
+| --color-border | #5A9F68 | garis dan batas elemen |
+| --color-danger | #B94A48 | pesan atau tanda kesalahan |
+| --color-focus | #5A9F68 | penanda fokus |
+| --radius-md | 0.5rem | sudut tombol dan kartu |
 | --space-4 | 1rem | jarak standar antar elemen |
-| --space-6 | 1.5rem | jarak antar bagian halaman |
-| --radius-md | 0.5rem | sudut tombol, kartu, dan isian |
-| --radius-full | 999px | bentuk pil atau lencana |
-| --shadow-1 | 0 1px 3px rgba(0,0,0,.10) | bayangan halus kartu |
-| --text-sm | 0.875rem | keterangan dan teks bantu |
-| --text-md | 1rem | teks isi |
-| --text-xl | 1.5rem | judul bagian |
-| --text-3xl | 2.25rem | judul halaman |
 
-Kriteria selesai saya: mengubah `--color-primary` di satu baris harus mengubah warna tombol, tautan, judul, dan garis fokus.
+Kriteria selesai saya: mengubah --color-primary di satu baris
+harus mengubah warna tombol, tautan, judul, dan garis fokus.

@@ -11,6 +11,7 @@ img {
   height: auto;
   display: block;
 }
+
 html {
   font-size: 100%;
 }
@@ -38,7 +39,6 @@ h3 {
   font-size: var(--text-md);
 }
 
-/* Batasi panjang baris supaya mata mudah berpindah baris */
 main p {
   max-width: 60ch;
 }
