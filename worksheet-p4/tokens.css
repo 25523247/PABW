@@ -33,11 +33,11 @@
   --color-bg: var(--cream);
   --color-fg: var(--green-900);
   --color-surface: var(--green-300);
-  --color-border: var(--green-600);
+  --color-border: var(--green-900);
 
   --color-primary: var(--green-800);
   --color-danger: var(--red);
-  --color-focus: var(--green-600);
+  --color-focus: var(--green-700);
 
   --card-pad: var(--space-4);
   --section-gap: var(--space-6);
