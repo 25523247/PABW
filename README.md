@@ -62,3 +62,8 @@ Pemilihan topik, isi halaman, data perjalanan, dan penyesuaian akhir saya kerjak
 
 Kriteria selesai saya: mengubah --color-primary di satu baris
 harus mengubah warna tombol, tautan, judul, dan garis fokus.
+
+## Pertemuan 8 — JavaScript Modern ES6+, Struktur Data, dan Array Methods
+
+- **Bagian yang dikerjakan sendiri:** Menyusun konsep logika dasar, mendefinisikan objek `profil` serta array `daftarProyek` beserta isinya sesuai topik halaman saya, mengetik seluruh kode di `app.js`, melakukan pengujian di *Console* browser, serta mengunggah (*commit* & *push*) kode ke repositori GitHub.
+- **Bagian yang dibantu AI:** Mendapatkan panduan struktur penulisan kode untuk fungsi murni, penjelasan penggunaan array methods (`map`, `filter`)
