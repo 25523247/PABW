@@ -15,3 +15,14 @@ const formatKeahlian = (daftar) => daftar.join(" · ");
 
 console.log(buatPerkenalan(profil));
 console.log(formatKeahlian(profil.keahlian));
+
+const daftarProyek = [
+  { nama: "Coreinform", selesai: true },
+  { nama: "SIMPROM", selesai: true },
+];
+
+const proyekSelesai = daftarProyek.filter(proyek => proyek.selesai);
+
+const namaProyekSelesai = proyekSelesai.map(proyek => proyek.nama);
+
+console.log("Proyek yang sudah selesai:", namaProyekSelesai);
