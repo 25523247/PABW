@@ -43,6 +43,10 @@ export const daftarPerjalanan = [
   },
 ];
 
+export function tambahPerjalananBaru(itemBaru) {
+  daftarPerjalanan.push(itemBaru);
+}
+
 const perjalananSelesai = daftarPerjalanan.filter(p => p.selesai);
 const namaTempatSelesai = perjalananSelesai.map(p => p.tempat);
 
