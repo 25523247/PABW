@@ -20,6 +20,7 @@ export const daftarPerjalanan = [
   { 
     tempat: "Yogyakarta", 
     tahun: "2025", 
+    kategori: "galeri",
     gambar: "perjalanan-1.jpeg", 
     alt: "Foto perjalanan saya di Yogyakarta",
     selesai: true 
@@ -27,6 +28,7 @@ export const daftarPerjalanan = [
   { 
     tempat: "Bali", 
     tahun: "2026", 
+    kategori: "galeri",
     gambar: "perjalanan-2.jpeg", 
     alt: "Foto perjalanan saya di Bali",
     selesai: true 
@@ -34,6 +36,7 @@ export const daftarPerjalanan = [
   { 
     tempat: "Dubai", 
     tahun: "2026", 
+    kategori: "favorit", 
     gambar: "perjalanan-3.jpeg", 
     alt: "Foto perjalanan saya di Dubai",
     selesai: true 

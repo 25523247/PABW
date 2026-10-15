@@ -1,6 +1,7 @@
 import { daftarPerjalanan } from './app.js';
 
 const container = document.querySelector(".katalog");
+const filterContainer = document.querySelector("#filter");
 
 function buildCard(perjalanan) {
   const article = document.createElement("article");
@@ -37,3 +38,21 @@ function render(list) {
 }
 
 render(daftarPerjalanan);
+
+if (filterContainer) {
+  filterContainer.addEventListener("click", (event) => {
+    const button = event.target.closest("button");
+    if (!button) return;
+
+    const filterValue = button.getAttribute("data-filter");
+
+    if (filterValue === "all" || !filterValue) {
+      render(daftarPerjalanan);
+    } else {
+      const filteredData = daftarPerjalanan.filter(
+        (item) => item.kategori === filterValue
+      );
+      render(filteredData);
+    }
+  });
+}
