@@ -67,3 +67,19 @@ harus mengubah warna tombol, tautan, judul, dan garis fokus.
 
 - **Bagian yang dikerjakan sendiri:** Menyusun konsep logika dasar, mendefinisikan objek `profil` serta array `daftarProyek` beserta isinya sesuai topik halaman saya, mengetik seluruh kode di `app.js`, melakukan pengujian di *Console* browser, serta mengunggah (*commit* & *push*) kode ke repositori GitHub.
 - **Bagian yang dibantu AI:** Mendapatkan panduan struktur penulisan kode untuk fungsi murni, penjelasan penggunaan array methods (`map`, `filter`)
+
+## Pertemuan 9 — DOM, Events, and Interactivity
+
+Modular Architecture: Memisahkan logika data (app.js) dan logika render DOM serta interaksi (event handling) ke dom.js menggunakan ES6 modules.
+
+Dynamic DOM Manipulation: Membangun kartu secara programatik menggunakan document.createElement dan mengisi teks dengan aman via textContent.
+
+Event Delegation: Mengimplementasikan event delegation pada kontainer #filter untuk menyaring kategori kartu secara efisien.
+
+Form-Based Data Ingestion: Menangkap input form secara dinamis, mencegah reload halaman (preventDefault), menambahkan objek baru ke array, dan merender ulang tampilan secara real-time.
+
+Pengungkapan AI (AI Disclosure)
+
+Bantuan AI: Saya menggunakan AI sebagai bantuan untuk memahami beberapa konsep HTML5, mengecek struktur kode, mengorganisasi event delegation, dan memformat dokumentasi/laporan worksheet.
+
+Kontribusi Pribadi: Pemilihan topik, isi halaman, data perjalanan, desain token, logika JavaScript, dan penyesuaian akhir dikerjakan dan diverifikasi sendiri.
