@@ -17,9 +17,27 @@ console.log(buatPerkenalan(profil));
 console.log(formatKeahlian(profil.keahlian));
 
 export const daftarPerjalanan = [
-  { tempat: "Yogyakarta", tahun: "2025", kategori: "galeri", selesai: true },
-  { tempat: "Bali", tahun: "2026", kategori: "galeri", selesai: true },
-  { tempat: "Dubai", tahun: "2026", kategori: "galeri", selesai: true },
+  { 
+    tempat: "Yogyakarta", 
+    tahun: "2025", 
+    gambar: "perjalanan-1.jpeg", 
+    alt: "Foto perjalanan saya di Yogyakarta",
+    selesai: true 
+  },
+  { 
+    tempat: "Bali", 
+    tahun: "2026", 
+    gambar: "perjalanan-2.jpeg", 
+    alt: "Foto perjalanan saya di Bali",
+    selesai: true 
+  },
+  { 
+    tempat: "Dubai", 
+    tahun: "2026", 
+    gambar: "perjalanan-3.jpeg", 
+    alt: "Foto perjalanan saya di Dubai",
+    selesai: true 
+  },
 ];
 
 const perjalananSelesai = daftarPerjalanan.filter(p => p.selesai);

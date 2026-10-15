@@ -6,15 +6,25 @@ function buildCard(perjalanan) {
   const article = document.createElement("article");
   article.className = "kartu";
 
-  const p = document.createElement("p");
-  p.textContent = `Perjalanan saya di ${perjalanan.tempat} (${perjalanan.tahun})`;
-  
-  article.append(p);
+  const figure = document.createElement("figure");
+
+  const img = document.createElement("img");
+  img.src = perjalanan.gambar;
+  img.alt = perjalanan.alt;
+  img.width = 300;
+  img.height = 300;
+  img.loading = "lazy";
+
+  const figcaption = document.createElement("figcaption");
+  figcaption.textContent = `Perjalanan saya di ${perjalanan.tempat}`;
+
+  figure.append(img, figcaption);
+  article.append(figure);
+
   return article;
 }
 
 function render(list) {
-
   container.textContent = "";
 
   if (list.length === 0) {
