@@ -1,0 +1,28 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: var(--dark-bg);
+    --color-fg: var(--dark-fg);
+    --color-surface: var(--dark-surface);
+    --color-border: var(--dark-border);
+    --color-primary: var(--dark-primary);
+    --color-danger: var(--dark-danger);
+    --color-focus: var(--dark-focus);
+    --shadow-1: 0 1px 3px rgba(0, 0, 0, .45);
+  }
+}
+
+.pengalih-tema {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+:root:has(#tema:checked) {
+  --color-bg: var(--dark-bg);
+  --color-fg: var(--dark-fg);
+  --color-surface: var(--dark-surface);
+  --color-border: var(--dark-border);
+  --color-primary: var(--dark-primary);
+  --color-danger: var(--dark-danger);
+  --color-focus: var(--dark-focus);
+}
