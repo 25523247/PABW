@@ -83,3 +83,12 @@ Pengungkapan AI (AI Disclosure)
 Bantuan AI: Saya menggunakan AI sebagai bantuan untuk memahami beberapa konsep HTML5, mengecek struktur kode, mengorganisasi event delegation, dan memformat dokumentasi/laporan worksheet.
 
 Kontribusi Pribadi: Pemilihan topik, isi halaman, data perjalanan, desain token, logika JavaScript, dan penyesuaian akhir dikerjakan dan diverifikasi sendiri.
+
+## PABW — Worksheet Pertemuan 10
+Rencana Pertemuan 10JudulAsynchronous JavaScript: fetch, Promise, and JSON
+DeskripsiMengambil data dari API secara asinkron, membaca respons JSON, memisahkan data layer (js/api.js) dari presentation layer, serta merender keempat status antarmuka (loading, success, failure, empty).   
+
+Pengungkapan AI
+Bagian yang dikerjakan sendiri: Menyusun struktur folder worksheet-p10, mengintegrasikan pemanggilan API ke halaman profil, memverifikasi status antarmuka, serta melakukan commit dan push ke repositori GitHub.   
+
+Bagian yang dibantu AI: Mendapatkan panduan penulisan fungsi asinkron (async/await), implementasi try/catch, dan penyusunan dokumentasi laporan.   
